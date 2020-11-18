@@ -1,0 +1,93 @@
+* {
+    font-family: 'Lato', sans-serif;
+    color: purple;
+}
+
+body {
+    height: 100%;
+    /* For browsers that do not support gradients */
+    background-color: rgb(126, 3, 126);
+    background-image: linear-gradient(to right, purple 5%, rgb(255, 255, 255) 10%, rgb(255, 255, 255) 90%, purple 95%);
+}
+
+.navbar {
+    background-color: purple;
+}
+
+.head-title {
+    font-size: 30px;
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.navbar-options {
+    color: white;
+    font-size: 30px;
+}
+
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.my-name {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.middlename {
+    font-size: 4vw;
+    text-align: center;
+}
+
+#mainimage {
+    width: 80%;
+    padding-top: 100px;
+    height: 100vh;
+}
+
+.bio {
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid purple;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+#one-section {
+    width: 70%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.portfolio {
+    text-align: center;
+}
+
+.portfolio-subtitle {
+    padding-top: 2%;
+    margin: 5%;
+    text-align: center;
+    border: 2px solid purple;
+    border-radius: 12px;
+}
+
+.pictures {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.picture {
+    padding: 15px;
+    width: 800px
+}
+
+h4 {
+    font-size: 30px;
+}
