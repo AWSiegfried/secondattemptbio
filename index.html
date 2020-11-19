@@ -18,35 +18,16 @@
     <!--Nav Bar-->
     <nav class="navbar navbar-expand-lg">
         <a class="head-title navbar-brand px-2 text-light" href="#">Alexander Wolfgang Siegfried</a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-options navbar-nav w-100 justify-content-end">
-                <li class="nav-item">
-                    <a href="#" class="nav-link">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Portfolio </a>
-                </li>
-                <li class="nav-item active">
-                    <a href="#" class="nav-link">Contact</a>
-                </li>
-            </ul>
         </div>
     </nav>
 
-    <div id="mainimage">
+    <section id="mainimage" class="container">
         <main>
-            <div class="row ml-5">
+            <div class="row concert justify-content-center" id="one-section">
                 <!--Picture-->
-                <div class="col-3">
-                    <img class="concert img-thumbnail" alt="Artist Image" src="Assets/Images/profilepic.jpg">
-                </div>
-                <!--Name-->
-                <div class="col-9">
-                    <div>
-                        <h1 class="my-name ml-5 pl-5">Alexander</h1>
-                        <h1 class="my-name ml-5 pl-5 middlename">Wolfgang </h1>
-                        <h1 class="my-name ml-5 pl-5">Siegfried</h1>
-                    </div>
+                <div>
+                    <img class="img-fluid" alt="Artist Image" src="Assets/Images/profilepic.jpg" width="150vw" height="150vh">
+
                 </div>
             </div>
 
@@ -55,8 +36,13 @@
                 <div id="one-section" class="col-12 col-xl-12 pl-xl-n12">
                     <div>
                         <h1>About Me</h1>
-                        <p class="bio">About Me Portfolio ContactPortfolioAbout MeEmergence Live link: Github LinkLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-                            enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo conAlexander Wolfgang Siegfried
+                        <p class="bio">Since graduating from UCLA in 2017 I've worked biz dev for very early-stage Silicon Beach tech startups (specifically ad tech). It's been absurdly challenging (like being told to make the company worth $100MM in two years with
+                            literally a $0 customer-aquisition-cost challenging) but significantly rewarding. Working closely (in execution and literal proximity) with several dev teams over the past few years has given me a decent idea of what the dev
+                            life of a tech startup worker is like. I've learned a lot of their metanarratives, culural quirks, work pace as well as actual projects and realized that that fits my personality much better than the biz dev side. So I'm extremely
+                            excited to begin down the coding trail towards our inevitable replacement by functional (sentient or not) AI.
+                            <br>
+                            <br> Also, my other full time job is as the frontman/writer/manager/social media intern for the progessive death metal band Deified. Check us out on Spotify if you like operatic, orchestrated, bipolar death metal (FFO Devin
+                            Townsend, Gojira, Bach).
                         </p>
                     </div>
                 </div>
@@ -77,17 +63,17 @@
                                 <a href="https://github.com/AWSiegfried/Emergence_v1" target="_blank">Github Repository</a></h6>
                             <div class="row pictures">
                                 <div class="col-md-12 cold-sm-12">
-                                    <img src="Assets/Images/emergence-homepage.png" alt="Placeholder" class="picture">
+                                    <img src="Assets/Images/emergence-homepage.png" alt="Placeholder" class="picture img-fluid">
                                 </div>
                             </div>
                             <div class="row pictures">
                                 <div class="col-md-12 cold-sm-12">
-                                    <img src="Assets/Images/emergence-artistpage.png" alt="Placeholder" class="picture">
+                                    <img src="Assets/Images/emergence-artistpage.png" alt="Placeholder" class="picture img-fluid">
                                 </div>
                             </div>
                             <div class="row pictures">
                                 <div class="col-md-12 cold-sm-12">
-                                    <img src="Assets/Images/emergence-audio-features.png" alt="Placeholder" class="picture">
+                                    <img src="Assets/Images/emergence-audio-features.png" alt="Placeholder" class="picture img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -100,7 +86,7 @@
                                 <a href="https://github.com/AWSiegfried/HW05-workdayscheduler" target="_blank">Github Repository</a></h6>
                             <div class="row pictures">
                                 <div class="col-md-12 cold-sm-12">
-                                    <img src="Assets/Images/workdayscheduler.png" alt="Placeholder" class="picture">
+                                    <img src="Assets/Images/workdayscheduler.png" alt="Placeholder" class="picture img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -113,7 +99,7 @@
                                 <a href="https://github.com/AWSiegfried/HW03-passwordgenerator" target="_blank">Github Repository</a></h6>
                             <div class="row pictures">
                                 <div class="col-md-12 cold-sm-12">
-                                    <img src="Assets/Images/passwordgenerator.png" alt="Placeholder" class="picture">
+                                    <img src="Assets/Images/passwordgenerator.png" alt="Placeholder" class="picture img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -124,33 +110,29 @@
             <!--Contact Me-->
             <div class="row mt-5">
                 <div id="one-section" class="col-12 col-xl-12 pl-xl-n12">
-                    <div>
-                        <h1>Contact Info</h1>
-                        <!--Three Examples-->
-                        <!--Example One-->
-                        <div class="contact-subtitle">
-
-                            <div class="contact col-md-6 cold-xs-12 col-lg-6">
+                    <h1>Contact Info</h1>
+                    <div class="contact-subtitle">
+                        <div class="row">
+                            <div class="contact col-xs-12 col-md-6 col-lg-6">
                                 <h4>Professional</h4>
                                 <p>Email: awsiegfried@gmail.com</p>
                                 <p> Cell: 484-788-1741</p>
                                 <p><a href="https://github.com/AWSiegfried" target="_blank">Github</a></p>
                                 <p><a href="https://www.linkedin.com/in/alexander-wolfgang-siegfried-0565704a/" target="_blank">LinkedIn</a></p>
-                                <p><a href="#" target="_blank">Résumé</a></p>
+                                <p><a href="./Assets/Images/resume.pdf" download target="_blank">Download Resume</a></p>
                             </div>
-                            <div class="contact col-md-6 cold-xs-12 col-lg-6 ">
+                            <div class="contact col-xs-12 col-md-6 col-lg-6">
                                 <h4>Personal</h4>
                                 <p><a href="https://www.instagram.com/awsiegfried/" target="_blank">Instagram</a></p>
                                 <p><a href="https://www.facebook.com/alex.siegfried.52/" target="_blank">Facebook</a></p>
-                                <p><a href="https://linktr.ee/deified/" target="_blank">Musc</a></p>
+                                <p><a href="https://linktr.ee/deified/" target="_blank">Music</a></p>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
         </main>
-    </div>
+    </section>
 
     <!--jQuery-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
