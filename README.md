@@ -15,9 +15,9 @@ Live Application - https://awsiegfried.github.io/secondattemptbio/
 
 
 ### Screenshots
-![screenshot](Assets/Images/passwordgenerator1.png?raw=true)
-![screenshot](Assets/Images/passwordgenerator2.png?raw=true)
-![screenshot](Assets/Images/passwordgenerator3.png?raw=true)
+![screenshot](Assets/Images/secondattempt1.png?raw=true)
+![screenshot](Assets/Images/secondattempt2.png?raw=true)
+![screenshot](Assets/Images/secondattempt3.png?raw=true)
 
 
 ### License 
