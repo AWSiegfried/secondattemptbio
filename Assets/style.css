@@ -1,7 +1,7 @@
-* {
-    font-family: 'Lato', sans-serif;
-    color: purple;
-}
+/* 
+font-family: 'Jura', sans-serif;
+font-family: 'Recursive', sans-serif; 
+*/
 
 body {
     text-align: center;
@@ -25,6 +25,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: 'Recursive', sans-serif !important;
     /* opacity: 1; */
 }
 
@@ -33,6 +34,7 @@ body {
     margin-top: -11px;
     width: 100%;
     z-index: 5;
+    font-family: 'Jura', sans-serif;
 }
 
 .profilePicture {
@@ -43,29 +45,26 @@ body {
 
 #mainimage {
     width: 80%;
-    padding-top: 50px;
+    padding-top: 2rem;
     margin: auto;
 }
 
 .head-title {
-    font-size: 2rem;
+    font-size: 3rem;
     color: white;
     margin-top: 15px;
     font-weight: bold;
     letter-spacing: 3px;
+    text-shadow: 2px 2px #a200ff38;
+    z-index: 5px;
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
 .navbar-options {
     color: #462A46;
     background-color: rgba(241, 234, 250, 0.904);
     font-size: 2.5vw;
-}
-
-body {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .my-name {
@@ -85,12 +84,13 @@ body {
 
 .bio {
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.25rem;
     border-radius: 12px;
     padding: 10px;
     color: #462A46;
-    background-color: rgba(255, 252, 246, 0.966);
+    background-color: rgba(255, 252, 246, 0.849);
     box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.5);
+    font-family: 'Recursive', sans-serif;
 }
 
 #one-section {
@@ -100,7 +100,8 @@ body {
 
 h4 {
     font-size: 3vw;
-    color: white;
+    color: #462A46;
+    font-family: 'Jura', sans-serif;
 }
 
 .portfolio {
@@ -129,7 +130,8 @@ h4 {
 
 h1 {
     font-size: 4vw;
-    color: white
+    color: white;
+    font-family: 'Jura', sans-serif;
 }
 
 .contact {
