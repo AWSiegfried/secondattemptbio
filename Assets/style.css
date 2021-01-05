@@ -7,13 +7,38 @@ body {
     text-align: center;
     margin: 1vw;
     /* For browsers that do not support gradients */
-    background-color: rgb(126, 3, 126);
-    background-image: linear-gradient(to right, purple 5%, rgb(255, 255, 255) 10%, rgb(255, 255, 255) 90%, purple 95%);
+    /* background-color: rgb(126, 3, 126); */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -4;
+    height: 100vh;
+    width: 100%;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* background-image: url('../images/yoga.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    background: url('./Images/thirdattemptbg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* opacity: 1; */
 }
 
 .navbar {
-    background-color: purple;
+    color: #462A46;
     margin-top: -11px;
+    width: 100%;
+    z-index: 5;
+}
+
+.profilePicture {
+    position: absolute;
+    top: 2%;
+    right: 1%;
 }
 
 #mainimage {
@@ -23,7 +48,7 @@ body {
 }
 
 .head-title {
-    font-size: 2vw;
+    font-size: 2rem;
     color: white;
     margin-top: 15px;
     font-weight: bold;
@@ -31,7 +56,8 @@ body {
 }
 
 .navbar-options {
-    color: white;
+    color: #462A46;
+    background-color: rgba(241, 234, 250, 0.904);
     font-size: 2.5vw;
 }
 
@@ -60,9 +86,11 @@ body {
 .bio {
     text-align: center;
     font-size: 2vw;
-    border: 2px solid purple;
     border-radius: 12px;
     padding: 10px;
+    color: #462A46;
+    background-color: rgba(255, 252, 246, 0.966);
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.5);
 }
 
 #one-section {
@@ -72,6 +100,7 @@ body {
 
 h4 {
     font-size: 3vw;
+    color: white;
 }
 
 .portfolio {
@@ -84,6 +113,9 @@ h4 {
     text-align: center;
     border: 2px solid purple;
     border-radius: 12px;
+    color: #462A46;
+    background-color: rgba(255, 252, 246, 0.555);
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.5);
 }
 
 .pictures {
@@ -97,6 +129,7 @@ h4 {
 
 h1 {
     font-size: 4vw;
+    color: white
 }
 
 .contact {
@@ -104,6 +137,10 @@ h1 {
     font-size: 2vw;
     border: 2px solid purple;
     border-radius: 1vw;
+    margin-bottom: 2rem;
+    color: #462A46;
+    background-color: rgba(255, 252, 246, 0.966);
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.5);
 }
 
 .contact-subtitle {
